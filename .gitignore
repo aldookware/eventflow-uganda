@@ -1,0 +1,136 @@
+# EventFlow - Multi-platform Event Booking System
+# Django + Next.js + Flutter + Docker
+
+# === PYTHON/DJANGO ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+backend/venv/
+backend/.env
+
+# === NEXT.JS/REACT ===
+admin/node_modules/
+admin/.next/
+admin/out/
+admin/build/
+admin/.env
+admin/.env.local
+admin/.env.development.local
+admin/.env.test.local
+admin/.env.production.local
+admin/npm-debug.log*
+admin/yarn-debug.log*
+admin/yarn-error.log*
+
+# === FLUTTER ===
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+mobile/flutter_*.png
+mobile/flutter_*.ipa
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/local.properties
+mobile/android/app/outputs/
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Pods/
+mobile/pubspec.lock
+mobile/pubspec_*.yaml
+
+# === ENVIRONMENT & SECRETS ===
+.env
+.env.local
+.env.development
+.env.production
+.env.docker
+.env.secrets
+backend/.env
+admin/.env
+
+# === DOCKER ===
+docker-compose.override.yml
+postgres_data/
+redis_data/
+pgadmin_data/
+
+# === DATABASE ===
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# === LOGS ===
+*.log
+logs/
+backend/logs/
+
+# === IDE & EDITORS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# === OS SPECIFIC ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === SECURITY ===
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+secrets/
+**/google-services.json
+**/GoogleService-Info.plist
+
+# === BUILD ARTIFACTS ===
+dist/
+build/
+*.tar.gz
+*.zip
+
+# === CACHE & TEMP ===
+.cache/
+.tmp/
+.temp/
+node_modules/.cache/
