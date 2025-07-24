@@ -1,5 +1,5 @@
-name: eventflow
-description: "EventFlow - Discover. Plan. Experience. Event booking platform for Uganda"
+name: hoppers
+description: "Hoppers - Discover. Plan. Experience. Event booking platform for Uganda"
 publish_to: 'none'
 
 version: 1.0.0+1
