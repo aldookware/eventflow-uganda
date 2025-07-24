@@ -73,7 +73,7 @@ services:
         python manage.py runserver 0.0.0.0:8000
       "
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/api/"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/events/"]
       interval: 30s
       timeout: 10s
       retries: 5
